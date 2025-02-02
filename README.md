@@ -7,4 +7,3 @@ A simple weather application built using JavaScript and OpenWeatherMap API to fe
 🛠️ Technologies Used: 1.HTML 2.CSS 3.JavaScript 4.OpenWeatherMap API
 
 🌎 Live Demo 🔗 [https://alvindavids.github.io/Weather-app/]
-
