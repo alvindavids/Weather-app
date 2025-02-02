@@ -1,0 +1,103 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(imag1.jpg);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Container */
+.app {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Search Box */
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+}
+.search input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.search button {
+  background: #ff9800;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition:  0.3s;
+}
+
+.search button:hover {
+  background: #e68900;
+}
+
+
+.weather-info {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+@media (min-width: 500px) {
+  .search {
+      flex-direction: row;
+  }
+
+  .search input {
+      width: 50%;
+  }
+
+  .search button {
+      width: 30%;
+  }
+}
+@media (min-width: 500px) {
+  .search {
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .search input {
+      width: 50%;
+      max-width: 300px; 
+  }
+
+  .search button {
+      width: 30%;
+      max-width: 150px; 
+  }
+}
