@@ -1,5 +1,6 @@
 
-🌤️ Simple Weather App A simple weather application built using JavaScript and OpenWeatherMap API to fetch real-time weather updates.
+🌤️ Simple Weather App:
+A simple weather application built using JavaScript and OpenWeatherMap API to fetch real-time weather updates.
 
 🚀 Features: 🌍 Get current weather by city name 🌡️ Displays temperature in Celsius ☁️ Shows weather condition (clear, cloudy, rainy, etc.) 🔗 Fetches data from OpenWeatherMap API
 
